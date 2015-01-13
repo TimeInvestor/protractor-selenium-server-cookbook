@@ -115,5 +115,5 @@ end
 # ------------------------------------------------------------------
 # Protractor installation.
 # ------------------------------------------------------------------
-
-execute 'npm install -g protractor jasmine-node'
+#execute 'npm install -g protractor jasmine-node'
+execute 'npm install -g protractor@1.5.0 --save'
