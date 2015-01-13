@@ -115,5 +115,19 @@ end
 # ------------------------------------------------------------------
 # Protractor installation.
 # ------------------------------------------------------------------
-#execute 'npm install -g protractor jasmine-node'
 execute 'npm install -g protractor@1.5.0 --save'
+
+# ------------------------------------------------------------------
+# Momentjs installation.
+# ------------------------------------------------------------------
+execute 'npm install moment'
+
+# ------------------------------------------------------------------
+# jasmine-reporters installation.
+# ------------------------------------------------------------------
+execute 'npm install jasmine-reporters'
+
+# ------------------------------------------------------------------
+# protractor-html-screenshot-reporter installation.
+# ------------------------------------------------------------------
+execute 'npm install protractor-html-screenshot-reporter'
